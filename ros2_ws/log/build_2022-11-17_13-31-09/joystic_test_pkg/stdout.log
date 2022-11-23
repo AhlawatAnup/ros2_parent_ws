@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/joystic_test_pkg/joystic_test_pkg.egg-info
+writing ../../build/joystic_test_pkg/joystic_test_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/joystic_test_pkg/joystic_test_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/joystic_test_pkg/joystic_test_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/joystic_test_pkg/joystic_test_pkg.egg-info/requires.txt
+writing top-level names to ../../build/joystic_test_pkg/joystic_test_pkg.egg-info/top_level.txt
+writing manifest file '../../build/joystic_test_pkg/joystic_test_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/joystic_test_pkg/joystic_test_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/joystic_test_pkg/joystic_test_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/build
+creating /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/build/lib
+creating /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/build/lib/joystic_test_pkg
+copying joystic_test_pkg/temp.py -> /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/build/lib/joystic_test_pkg
+copying joystic_test_pkg/__init__.py -> /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/build/lib/joystic_test_pkg
+copying joystic_test_pkg/joystick.py -> /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/build/lib/joystic_test_pkg
+running install
+running install_lib
+creating /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages/joystic_test_pkg
+copying /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/build/lib/joystic_test_pkg/temp.py -> /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages/joystic_test_pkg
+copying /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/build/lib/joystic_test_pkg/__init__.py -> /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages/joystic_test_pkg
+copying /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/build/lib/joystic_test_pkg/joystick.py -> /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages/joystic_test_pkg
+byte-compiling /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages/joystic_test_pkg/temp.py to temp.cpython-310.pyc
+byte-compiling /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages/joystic_test_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages/joystic_test_pkg/joystick.py to joystick.cpython-310.pyc
+running install_data
+creating /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/share/ament_index
+creating /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/share/ament_index/resource_index
+creating /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/share/ament_index/resource_index/packages
+copying resource/joystic_test_pkg -> /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/share/joystic_test_pkg
+running install_egg_info
+Copying ../../build/joystic_test_pkg/joystic_test_pkg.egg-info to /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages/joystic_test_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joystick_node script to /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/joystic_test_pkg
+writing list of installed files to '/home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/install.log'

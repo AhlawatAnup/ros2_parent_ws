@@ -1,0 +1,55 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/anup_ahlawat/slam_toolbox_ws/build/slam_toolbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8dda/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a8dda.dir/build.make CMakeFiles/cmTC_a8dda.dir/build
+gmake[1]: Entering directory '/home/anup_ahlawat/slam_toolbox_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8dda.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_a8dda.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a8dda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8dda.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_a8dda.dir/CheckFunctionExists.c.o -o cmTC_a8dda 
+/usr/bin/ld: CMakeFiles/cmTC_a8dda.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_a8dda.dir/build.make:99: cmTC_a8dda] Error 1
+gmake[1]: Leaving directory '/home/anup_ahlawat/slam_toolbox_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a8dda/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/anup_ahlawat/slam_toolbox_ws/build/slam_toolbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0de2d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0de2d.dir/build.make CMakeFiles/cmTC_0de2d.dir/build
+gmake[1]: Entering directory '/home/anup_ahlawat/slam_toolbox_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0de2d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_0de2d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0de2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0de2d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_0de2d.dir/CheckFunctionExists.c.o -o cmTC_0de2d  /usr/lib/x86_64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_0de2d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_0de2d.dir/build.make:100: cmTC_0de2d] Error 1
+gmake[1]: Leaving directory '/home/anup_ahlawat/slam_toolbox_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0de2d/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/anup_ahlawat/slam_toolbox_ws/build/slam_toolbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9c3d9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9c3d9.dir/build.make CMakeFiles/cmTC_9c3d9.dir/build
+gmake[1]: Entering directory '/home/anup_ahlawat/slam_toolbox_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c3d9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_9c3d9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9c3d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c3d9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_9c3d9.dir/CheckFunctionExists.c.o -o cmTC_9c3d9  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so -fortranlibs 
+cc: error: unrecognized command line option ‘-fortranlibs’
+gmake[1]: *** [CMakeFiles/cmTC_9c3d9.dir/build.make:101: cmTC_9c3d9] Error 1
+gmake[1]: Leaving directory '/home/anup_ahlawat/slam_toolbox_ws/build/slam_toolbox/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9c3d9/fast] Error 2
+
+
+

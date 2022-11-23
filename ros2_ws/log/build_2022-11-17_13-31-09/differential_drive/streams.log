@@ -1,0 +1,59 @@
+[0.907s] Invoking command in '/home/anup_ahlawat/ros2_ws/src/ros2_differential_drive': PYTHONPATH=/home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/differential_drive build --build-base /home/anup_ahlawat/ros2_ws/build/differential_drive/build install --prefix /home/anup_ahlawat/ros2_ws/install/differential_drive --record /home/anup_ahlawat/ros2_ws/build/differential_drive/install.log --single-version-externally-managed
+[1.169s] /home/anup_ahlawat/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.169s]   warnings.warn(
+[1.169s] /home/anup_ahlawat/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.169s]   warnings.warn(
+[1.212s] running egg_info
+[1.213s] creating ../../build/differential_drive/differential_drive.egg-info
+[1.213s] writing ../../build/differential_drive/differential_drive.egg-info/PKG-INFO
+[1.213s] writing dependency_links to ../../build/differential_drive/differential_drive.egg-info/dependency_links.txt
+[1.214s] writing entry points to ../../build/differential_drive/differential_drive.egg-info/entry_points.txt
+[1.214s] writing requirements to ../../build/differential_drive/differential_drive.egg-info/requires.txt
+[1.214s] writing top-level names to ../../build/differential_drive/differential_drive.egg-info/top_level.txt
+[1.214s] writing manifest file '../../build/differential_drive/differential_drive.egg-info/SOURCES.txt'
+[1.216s] reading manifest file '../../build/differential_drive/differential_drive.egg-info/SOURCES.txt'
+[1.217s] adding license file 'LICENSE'
+[1.217s] writing manifest file '../../build/differential_drive/differential_drive.egg-info/SOURCES.txt'
+[1.218s] running build
+[1.218s] running build_py
+[1.218s] creating /home/anup_ahlawat/ros2_ws/build/differential_drive/build
+[1.218s] creating /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib
+[1.218s] creating /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive
+[1.218s] copying src/differential_drive/diff_tf.py -> /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive
+[1.218s] copying src/differential_drive/virtual_joystick.py -> /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive
+[1.219s] copying src/differential_drive/pid_velocity.py -> /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive
+[1.219s] copying src/differential_drive/twist_to_motors.py -> /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive
+[1.219s] copying src/differential_drive/__init__.py -> /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive
+[1.219s] copying src/differential_drive/wheel_loopback.py -> /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive
+[1.219s] copying src/differential_drive/wheel_scaler.py -> /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive
+[1.220s] running install
+[1.220s] running install_lib
+[1.221s] creating /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive
+[1.221s] copying /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive/diff_tf.py -> /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive
+[1.221s] copying /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive/virtual_joystick.py -> /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive
+[1.221s] copying /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive/pid_velocity.py -> /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive
+[1.222s] copying /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive/twist_to_motors.py -> /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive
+[1.222s] copying /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive/__init__.py -> /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive
+[1.222s] copying /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive/wheel_loopback.py -> /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive
+[1.222s] copying /home/anup_ahlawat/ros2_ws/build/differential_drive/build/lib/differential_drive/wheel_scaler.py -> /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive
+[1.223s] byte-compiling /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive/diff_tf.py to diff_tf.cpython-310.pyc
+[1.225s] byte-compiling /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive/virtual_joystick.py to virtual_joystick.cpython-310.pyc
+[1.226s] byte-compiling /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive/pid_velocity.py to pid_velocity.cpython-310.pyc
+[1.227s] byte-compiling /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive/twist_to_motors.py to twist_to_motors.cpython-310.pyc
+[1.228s] byte-compiling /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive/__init__.py to __init__.cpython-310.pyc
+[1.228s] byte-compiling /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive/wheel_loopback.py to wheel_loopback.cpython-310.pyc
+[1.230s] byte-compiling /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive/wheel_scaler.py to wheel_scaler.cpython-310.pyc
+[1.230s] running install_data
+[1.231s] creating /home/anup_ahlawat/ros2_ws/install/differential_drive/share/differential_drive/launch
+[1.231s] creating /home/anup_ahlawat/ros2_ws/install/differential_drive/share/differential_drive/config
+[1.231s] running install_egg_info
+[1.233s] Copying ../../build/differential_drive/differential_drive.egg-info to /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive-0.1.0-py3.10.egg-info
+[1.234s] running install_scripts
+[1.261s] Installing diff_tf script to /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/differential_drive
+[1.261s] Installing pid_velocity script to /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/differential_drive
+[1.261s] Installing twist_to_motors script to /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/differential_drive
+[1.261s] Installing virtual_joystick script to /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/differential_drive
+[1.261s] Installing wheel_loopback script to /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/differential_drive
+[1.261s] Installing wheel_scaler script to /home/anup_ahlawat/ros2_ws/install/differential_drive/lib/differential_drive
+[1.262s] writing list of installed files to '/home/anup_ahlawat/ros2_ws/build/differential_drive/install.log'
+[1.304s] Invoked command in '/home/anup_ahlawat/ros2_ws/src/ros2_differential_drive' returned '0': PYTHONPATH=/home/anup_ahlawat/ros2_ws/install/differential_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/differential_drive build --build-base /home/anup_ahlawat/ros2_ws/build/differential_drive/build install --prefix /home/anup_ahlawat/ros2_ws/install/differential_drive --record /home/anup_ahlawat/ros2_ws/build/differential_drive/install.log --single-version-externally-managed

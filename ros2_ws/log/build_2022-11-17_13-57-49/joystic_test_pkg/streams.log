@@ -1,0 +1,21 @@
+[0.902s] Invoking command in '/home/anup_ahlawat/ros2_ws/src/joystic_test_pkg': PYTHONPATH=/home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystic_test_pkg build --build-base /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/build install --prefix /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg --record /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/install.log --single-version-externally-managed
+[1.177s] running egg_info
+[1.178s] writing ../../build/joystic_test_pkg/joystic_test_pkg.egg-info/PKG-INFO
+[1.178s] writing dependency_links to ../../build/joystic_test_pkg/joystic_test_pkg.egg-info/dependency_links.txt
+[1.179s] writing entry points to ../../build/joystic_test_pkg/joystic_test_pkg.egg-info/entry_points.txt
+[1.179s] writing requirements to ../../build/joystic_test_pkg/joystic_test_pkg.egg-info/requires.txt
+[1.179s] writing top-level names to ../../build/joystic_test_pkg/joystic_test_pkg.egg-info/top_level.txt
+[1.181s] reading manifest file '../../build/joystic_test_pkg/joystic_test_pkg.egg-info/SOURCES.txt'
+[1.183s] writing manifest file '../../build/joystic_test_pkg/joystic_test_pkg.egg-info/SOURCES.txt'
+[1.183s] running build
+[1.183s] running build_py
+[1.183s] running install
+[1.184s] running install_lib
+[1.185s] running install_data
+[1.186s] running install_egg_info
+[1.188s] removing '/home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages/joystic_test_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.189s] Copying ../../build/joystic_test_pkg/joystic_test_pkg.egg-info to /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages/joystic_test_pkg-0.0.0-py3.10.egg-info
+[1.190s] running install_scripts
+[1.210s] Installing joystick_node script to /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/joystic_test_pkg
+[1.210s] writing list of installed files to '/home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/install.log'
+[1.257s] Invoked command in '/home/anup_ahlawat/ros2_ws/src/joystic_test_pkg' returned '0': PYTHONPATH=/home/anup_ahlawat/ros2_ws/install/joystic_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystic_test_pkg build --build-base /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/build install --prefix /home/anup_ahlawat/ros2_ws/install/joystic_test_pkg --record /home/anup_ahlawat/ros2_ws/build/joystic_test_pkg/install.log --single-version-externally-managed
